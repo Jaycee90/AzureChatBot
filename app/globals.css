@@ -222,7 +222,7 @@ small {
   }
   .hero-marroon {
       flex: 1;
-      background-color: var(--blue-400);
+      background-color: var(--muted-pastel-blue);
       border-radius: 30px;
       padding: 0px 30px;
       display: flex;
