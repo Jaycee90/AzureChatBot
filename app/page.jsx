@@ -274,44 +274,57 @@ export default function Home() {
           </div>
         </section>
         
-        <section id="projects" className="bento container">
+        <section id="projects" className="work-completed container">
           <h2>
             <small>Previous</small>
             Completed Projects
           </h2>
               
-          {/* <h2>
-            <small><a href="#home" className="home-link">Back to Home</a></small>
-          </h2> */}
-          
-          <div className="bento-grid">
-            <div className="bento-item">
-              <a href="https://vibetrack.vercel.app" target="_blank" rel="noopener noreferrer">
-                <img src="./imgs/vibetrack.png" alt="VibeTrack" width="100%" />
-                <div className="project-info">
-                  <h3>VibeTrack</h3>
-                  <p className="project-description">A nightclub tracker web app that aims to provide an enhanced experience for customers, helping them discover nearby clubs that cater to their preferences and interests.</p>
+          <div className="projs">
+            <article>
+              <figure>
+                <div>
+                  <a href="https://vibetrack.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <img src="./imgs/vibetrack.png" alt="VibeTrack" width="100%" />
+                  </a>
+                  <figcaption>VibeTrack</figcaption>
                 </div>
-              </a>
-            </div>
-            <div className="bento-item">
-              <a href="https://9commerce.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img src="./imgs/ecom.png" alt="MERNCommerce" width="100%" />
-                <div className="project-info">
-                  <h3>MERNCommerce</h3>
-                  <p className="project-description">An e-commerce platform enabling users to create accounts, browse items, checkout securely, and featuring an admin dashboard for inventory and order management.</p>
+              </figure>
+              <h3>VibeTrack</h3>
+              <p>
+                A nightclub tracker web app that aims to provide an enhanced experience for customers, 
+                helping them discover nearby clubs that cater to their preferences and interests.
+              </p>
+            </article>
+
+            <article>
+              <figure>
+                <div>
+                  <a href="https://9commerce.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <img src="./imgs/ecom.png" alt="MERNCommerce" width="100%" />
+                  </a>
+                  <figcaption>MERNCommerce</figcaption>
                 </div>
-              </a>
-            </div>
-            <div className="bento-item">
-              <a href="https://readhub-murex.vercel.app" target="_blank" rel="noopener noreferrer">
-                <img src="./imgs/readhub.png" alt="ReadHub" width="100%" />
-                <div className="project-info">
-                  <h3>ReadHub</h3>
-                  <p className="project-description">A hub for avid readers to discover, share, and review books across various genres.</p>
+              </figure>
+              <h3>MERNCommerce</h3>
+              <p>
+                An e-commerce platform enabling users to create accounts, browse items, checkout securely, 
+                and featuring an admin dashboard for inventory and order management.
+              </p>
+            </article>
+
+            <article>
+              <figure>
+                <div>
+                  <a href="https://readhub-murex.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <img src="./imgs/readhub.png" alt="ReadHub" width="100%" />
+                  </a>
+                  <figcaption>ReadHub</figcaption>
                 </div>
-              </a>
-            </div>
+              </figure>
+              <h3>ReadHub</h3>
+              <p >A hub for avid readers to discover, share, and review books across various genres.</p>
+            </article>
           </div>
         </section>
         

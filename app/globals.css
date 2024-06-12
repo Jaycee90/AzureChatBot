@@ -63,7 +63,7 @@ header {
   .logo-text {
       font-family: "Arial Black", Arial, sans-serif;
       font-style: italic;
-      margin-left: 100px;
+      margin-left: 10px;
   }
   
 
@@ -430,203 +430,194 @@ color: var(--base-800);
 }
 }
 
-.bento {
-  .bento-grid {
-      display: grid;
-      grid-gap: 30px;
-      /* Change below grid whenever my projects become many and want some spaces */
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      height: 960px;
-
-      @media(max-width: 1024px) {
-          grid-template-rows: repeat(5, 1fr);
+.work-completed {
+  .projs {
+    display:flex;
+    gap:30px;
+    @media(max-width:1024px){
+      flex-direction:column;
+    }
+    article {
+      background-color: var(--gold-100);
+      padding:30px;
+      border-radius:30px;
+      flex:1;
+      h3 {
+        margin-top:20px;
+        margin-bottom:10px;
       }
-
-      @media(max-width: 768px) {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-          height: auto;
+      div {
+        font-weight:600;
+        margin-bottom:5px;
+        color: var(--base-800);
       }
-
-      .bento-item {
-          padding: 30px;
-          background-color: var(--base-100);
-          border-radius: 15px;
-          position: relative;
-          overflow: hidden;
-
+      p {
+        margin-bottom:10px;
+      }
+      figure {
+        width:100%;
+        padding-top:56.25%;
+        overflow:hidden;
+        position:relative;
+        border-radius:15px;
+        img {
+          position:absolute;
+          top:0;
+          left:0;
+          height:100%;
+          object-fit:cover;
+          transition: ease 3s all;
+        }
+        figcaption {
+          position:absolute;
+          bottom:0;
+          left:0;
+          right:0;
+          background-color: rgba(0,0,0,0.5);
+          color: var(--base-100);
+          text-align:center;
+          padding:10px;
+          opacity:0;
+          visibility:hidden;
+          transition: ease 0.3s all;
+        }
+  
+        &:hover {
+          figcaption {
+            opacity:1;
+            visibility:visible;
+          }
           img {
-              position: absolute;
-              top: 0;
-              left: 0;
-              height: 100%;
-              object-fit: cover;
-              transition: ease 3s all;
+            transform: scale(1.2);
           }
-
-          &:hover {
-              img {
-                  transform: scale(1.2);
-              }
-          }
-
-          .project-info {
-              position: absolute;
-              top: 10px;
-              left: 20px;
-              background-color: var(--blue);
-              color: var(--base-100);
-              padding: 10px;
-              border-radius: 10px;
-              text-align: left;
-
-              h3 {
-                  margin: 0;
-                  font-size: 18px;
-                  color: var(--gold-400);
-              }
-
-              .project-description {
-                  margin: 5px 0 0;
-                  font-size: 14px;
-              }
-          }
-
-          @media(max-width: 768px) {
-              height: 240px;
-          }
-
-          &:nth-child(1) {
-              grid-column: span 3;
-              grid-row: span 1;
-
-              @media(max-width: 1024px) {
-                  grid-column: span 2;
-                  grid-row: span 2;
-              }
-          }
-
-          &:nth-child(2) {
-              grid-column: span 2;
-              grid-row: span 2;
-
-              @media(max-width: 1024px) {
-                  grid-column: span 2;
-                  grid-row: span 2;
-              }
-          }
-
-          &:nth-child(3) {
-              grid-column: span 1;
-              grid-row: span 2;
-
-              @media(max-width: 1024px) {
-                  grid-column: span 2;
-                  grid-row: span 2;
-              }
-          }
+        }
+  
       }
+    }
   }
-}
+  }
 
 .chatbot {
+  padding: 30px;
+}
+
 .chatbot-blue {
   background-color: var(--gold-100);
-  border-radius:30px;
-  padding:30px;
-  gap:30px;
-  display:flex;
-  @media (max-width:1024px){
-    flex-direction:column;
+  border-radius: 30px;
+  padding: 30px;
+  gap: 30px;
+  display: flex;
+  flex-direction: row; /* Default flex direction */
+}
+
+.chat-info {
+  flex: 3;
+  padding-right: 30px;
+}
+
+.chat-box {
+  flex: 4;
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-area {
+  max-height: 300px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.scroll-area ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.scroll-area li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.scroll-area li.user {
+  text-align: right;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.scroll-area li span {
+  background-color: var(--gold-400);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-area li.user span {
+  background-color: var(--blue);
+}
+
+.chat-message {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.chat-message input {
+  border-radius: 10px;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid transparent;
+  background-color: var(--base-100);
+}
+
+.chat-message input:hover,
+.chat-message input:focus {
+  outline: none;
+  background-color: white;
+  border: 1px solid var(--base-100);
+}
+
+.chat-message button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .chatbot-blue {
+    flex-direction: column; /* Stack vertically on smaller screens */
   }
-  p {
-    margin-bottom:30px;
-  }
+  
   .chat-info {
-    flex:3;
-    padding-right:30px;
-  }
-  .chat-box {
-    flex:4;
-    background:white;
-    border-radius:15px;
-    padding:30px;
-    display:flex;
-    flex-direction:column;
-    .scroll-area {
-      max-height:300px;
-      height:300px;
-      overflow-y:scroll;
-      ul {
-        display:flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        gap:15px;
-        li {
-          display:flex;
-          align-items:center;
-          gap:15px;
-
-          &.user{
-            text-align:right;
-            justify-content:flex-end;
-            flex-direction:row-reverse;
-            span {
-              background-color: var(--blue);
-            }
-          }
-
-          span {
-            background-color: var(--gold-400);
-            width:64px;
-            height:64px;
-            border-radius:50%;
-            display:inline-flex;
-            align-items:center;
-            justify-content:center;
-            @media(max-width:768px){
-              width:48px;
-              height:48px;
-            }
-          }
-          div {
-            flex:1;
-          }
-        }
-      }
-    }
-
-    .chat-message {
-      display:flex;
-      margin-top:15px;
-      gap:15px;
-      input {
-        border-radius:10px;
-        flex:1;
-        padding:15px;
-        border:1px solid transparent;
-        background-color: var(--base-100);
-        &:hover {
-          outline:none;
-          background-color:white;
-          border:1px solid var(--base-100);
-        }
-        &:focus {
-          outline:none;
-          background-color:white;
-          border:1px solid var(--base-100);
-        }
-      }
-      button {
-        border:none;
-        cursor:pointer;
-      }
-    }
+    padding-right: 0;
+    padding-bottom: 30px; /* Add spacing between sections */
   }
 }
+
+@media (max-width: 768px) {
+  .scroll-area li span {
+    width: 48px;
+    height: 48px; /* Smaller avatars on smaller screens */
+  }
 }
+
+@media (max-width: 480px) {
+  .chat-message input {
+    padding: 10px; /* Smaller padding for input field */
+  }
+  
+  .chat-message button {
+    padding: 10px; /* Adjust button padding if necessary */
+  }
+}
+
 
 footer.footerbox {
   background-color: var(--base-100);
