@@ -69,6 +69,9 @@ export default function Home() {
                 <a href="#projects">Projects</a>
               </li>
               <li>
+                <a href="#chatbot">ChatBot</a>
+              </li>
+              <li>
                 <a href="mailto:jturambe@gmail.com" className="button">Contact</a>
               </li>
             </ul>
@@ -328,7 +331,7 @@ export default function Home() {
           </div>
         </section>
         
-        <section className="chatbot container">
+        <section id="chatbot" className="chatbot container">
           <h2>
             <small>
               Talk to me
