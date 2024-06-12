@@ -21,11 +21,7 @@
   --yellow-100: #FFF8DC; 
   --yellow-400: #FFECB3; 
   --yellow-800: #FFD700; 
-  --blue: #3a8abf;       /* Adjusted hue */
-  --blue-100: #e2f8ff;   /* Lightened */
-  --blue-400: #88c8e0;   /* Lightened */
-  --blue-800: #2e7ca7;   /* Darkened */
-  --portfolio-blue: #1d608e; 
+  --muted-pastel-blue: #c4d7e7;
 
 }
 
@@ -34,7 +30,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 20px;
-  background-color: var(--blue-800); 
+  background-color: var(--muted-pastel-blue); 
 }
 
 a {
