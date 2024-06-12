@@ -2,16 +2,13 @@ import "./globals.css";
 import Head from "next/head";
 import React, { ReactNode } from "react";
 
-interface RootLayoutProps {
-  children: ReactNode;
-}
 
 export const metadata = {
   title: "Jayce Turambe | Full Stack Developer",
   description: "Full Stack Developer",
 };
 
-export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
@@ -24,3 +21,8 @@ export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
     </html>
   );
 }
+
+
+
+
+

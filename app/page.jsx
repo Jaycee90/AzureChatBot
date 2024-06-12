@@ -10,7 +10,7 @@ export default function Home() {
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [messageInput, setMessageInput] = useState('');
-  const chatLogRef: RefObject<HTMLDivElement> = useRef(null);
+  const chatLogRef = useRef(null);
 
   const [messages, setMessages] = useState([
       {
@@ -20,7 +20,7 @@ export default function Home() {
   ])
 
   // Function to handle form submission
-  const submitForm = async (e: React.FormEvent<HTMLFormElement>) => {
+  const submitForm = async (e) => {
     e.preventDefault();
     // Add the new message to the messages array
     let newMessages = [...messages, {role: 'user', content: messageInput} ]
