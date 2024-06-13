@@ -74,6 +74,6 @@ Library Manager Web Application
 Created a web-based library management system using HTML & CSS, React.js, Java Spring Boot, and MySQL. Emphasized writing basic CRUD queries for databases. Live Demo: ReadHub
 
 Education 
-Bachelor of Science in Computer Science and mathematics           May 2024                           
-Texas State University – San Marcos, Texas
+I hold a Bachelor of Science in Computer Science and mathematics          Graduated on the 9th of May 2024                           
+I went to school at Texas State University – San Marcos, Texas
 `
