@@ -47,9 +47,7 @@ export default function Home() {
   }
 
   const handleMenuItemClick = () => {
-    if (menuOpen) {
-      toggleMobileMenu();
-    }
+    setMenuOpen(false);
   };
 
   // Scroll to the bottom of the chat log whenever messages change
@@ -63,7 +61,7 @@ export default function Home() {
     <>
       <header>
         <div className="logo-text">
-          <span>Jayce Turambe</span>
+          <span className={`logo-text ${menuOpen ? 'hidden' : ''}`}>Jayce Turambe</span>
         </div>
 
         <nav>

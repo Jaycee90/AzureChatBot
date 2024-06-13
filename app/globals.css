@@ -60,11 +60,15 @@ header {
       font-family: "Arial Black", Arial, sans-serif;
       font-style: italic;
       margin-left: 10px;
-      span {
-        @media (max-width:1024px){
-          visibility: hidden;
-        }
-      }
+
+  }
+  .logo-text {
+    transition: visibility 0.3s, opacity 0.3s ease;
+  }
+  /*hide the name for small screens when menu open*/
+  .logo-text.hidden {
+    visibility: hidden;
+    opacity: 0;
   }
 
   nav {
@@ -98,7 +102,6 @@ header {
               top: 20px;
               right: 20px;
           }
-          
       }
   }
 
