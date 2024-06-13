@@ -63,7 +63,7 @@ export default function Home() {
     <>
       <header>
         <div className="logo-text">
-          <span className="myname">Jayce Turambe</span>
+          <span>Jayce Turambe</span>
         </div>
 
         <nav>

@@ -60,6 +60,11 @@ header {
       font-family: "Arial Black", Arial, sans-serif;
       font-style: italic;
       margin-left: 10px;
+      span {
+        @media (max-width:1024px){
+          visibility: hidden;
+        }
+      }
   }
 
   nav {
@@ -93,6 +98,7 @@ header {
               top: 20px;
               right: 20px;
           }
+          
       }
   }
 
@@ -568,7 +574,7 @@ color: var(--base-800);
 .chat-message input {
   border-radius: 10px;
   flex: 1;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid transparent;
   background-color: var(--base-100);
 }
