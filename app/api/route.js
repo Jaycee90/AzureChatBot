@@ -17,7 +17,7 @@ export async function POST (req) {
         the resume provided.
         Resume:
         ${DATA_RESUME}
-        Help user learn more about Jayce from his resume.`
+        Help user learn more about Jayce from his resume. and his info on his portfolio`
     })
 
 
@@ -76,4 +76,6 @@ Created a web-based library management system using HTML & CSS, React.js, Java S
 Education 
 I hold a Bachelor of Science in Computer Science and mathematics          Graduated on the 9th of May 2024                           
 I went to school at Texas State University – San Marcos, Texas
+
+Portfolio: [https://jayceturambe.vercel.app]
 `
