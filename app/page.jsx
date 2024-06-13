@@ -46,6 +46,12 @@ export default function Home() {
 
   }
 
+  const handleMenuItemClick = () => {
+    if (menuOpen) {
+      toggleMobileMenu();
+    }
+  };
+
   // Scroll to the bottom of the chat log whenever messages change
   useEffect(() => {
     if (chatLogRef.current) {
@@ -56,31 +62,34 @@ export default function Home() {
   return (
     <>
       <header>
-        <div className="logo-text">Jayce Turambe</div>
-          <nav>
-            <ul id="menu" className={menuOpen ? "active" : ""}>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#skills">Skills</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              <li>
-                <a href="#chatbot">ChatBot</a>
-              </li>
-              <li>
-                <a href="mailto:jturambe@gmail.com" className="button">Contact</a>
-              </li>
-            </ul>
-            <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
-              <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
-              </svg>
-            </a>
-          </nav>
+        <div className="logo-text">
+          <span className="myname">Jayce Turambe</span>
+        </div>
+
+        <nav>
+          <ul id="menu" className={menuOpen ? "active" : ""}>
+            <li>
+              <a href="#home" onClick={handleMenuItemClick}>Home</a>
+            </li>
+            <li>
+              <a href="#skills" onClick={handleMenuItemClick}>Skills</a>
+            </li>
+            <li>
+              <a href="#projects" onClick={handleMenuItemClick}>Projects</a>
+            </li>
+            <li>
+              <a href="#chatbot" onClick={handleMenuItemClick}>ChatBot</a>
+            </li>
+            <li>
+              <a href="mailto:jturambe@gmail.com" className="button" onClick={handleMenuItemClick}>Contact</a>
+            </li>
+          </ul>
+          <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
+            <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+            </svg>
+          </a>
+        </nav>
       </header>
       <main>
         <section id="home" className="hero container">
