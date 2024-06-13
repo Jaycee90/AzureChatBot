@@ -41,7 +41,7 @@ Summary Of Qualifications
 Proficient Full-Stack Developer with 3+ years of hands-on experience in designing, delivering, and maintaining robust web applications using React, Node.js, and related technologies.
 Skilled in multiple programming languages including Java, Python, JavaScript, and C++, with a solid understanding of programming principles, data structures, and algorithms.
 Experienced in both front-end and back-end development, adept at implementing software development best practices and principles.
-Proficient in serverless technologies such as AWS and Firebase, with a strong understanding of asynchronous programming and event-driven architecture.
+Proficient in serverless technologies such as AWS, Azure and Firebase, with a strong understanding of asynchronous programming and event-driven architecture.
 Effective problem solver with the ability to analyze and debug complex software issues.
 Strong communication and interpersonal skills, adaptable to fast-paced, collaborative team environments, and capable of adjusting to changing project requirements and priorities.
 Detail-oriented, self-motivated, and eager to learn and adapt to new technologies and methodologies.
@@ -49,7 +49,7 @@ Detail-oriented, self-motivated, and eager to learn and adapt to new technologie
 Skills & Technology
 Programming Languages: Java, C++, Python, JavaScript
 Front-end: JavaScript, TypeScript, React.JS, Redux, Firebase, Tailwind css, CSS3, HTML5 
-Back-end: Node.JS, Express.JS, MongoDB, JWT, Nodemailer, Express.js, Flask, Spring Boot, Django, Azure, AWS
+Back-end: Node.JS, Express.JS, MongoDB, JWT, Nodemailer,Next.js,  Express.js, Flask, Spring Boot, Django, Azure, AWS
 Databases: MongoDB, SQL, MySQL 
 Others: Git, GitHub, VS code, Chrome, webpack, Stripe, CI/CD, Junit, Jenkins, Jira
 Software Development: Agile (Scrum and Kanban), RESTful APIs 
