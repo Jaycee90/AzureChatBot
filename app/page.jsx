@@ -203,20 +203,22 @@ export default function Home() {
               <ul>
                 <li>Agile (Scrum and Kanban)</li>
                 <li>RESTful APIs </li>
+                <li>Test-Driven Development</li>
               </ul>
               <h3>Others</h3>
               <ul>
                 <li>Git</li>
                 <li>GitHub</li>
-                <li>VS code</li>
+                <li>VS Code</li>
                 <li>Chrome</li>
                 <li>webpack</li>
-                <li>CI/CD</li>
+                <li>CI/CD pipelines</li>
                 <li>AWS</li>
                 <li>Azure</li>
                 <li>Junit</li>
                 <li>Jenkins</li>
                 <li>Jira</li>
+                <li>Docker</li>
               </ul>
             </div>
             <div className="right-column">
