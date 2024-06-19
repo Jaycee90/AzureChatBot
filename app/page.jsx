@@ -212,6 +212,8 @@ export default function Home() {
                 <li>Chrome</li>
                 <li>webpack</li>
                 <li>CI/CD</li>
+                <li>AWS</li>
+                <li>Azure</li>
                 <li>Junit</li>
                 <li>Jenkins</li>
                 <li>Jira</li>
