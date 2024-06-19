@@ -140,17 +140,17 @@ export default function Home() {
               <img src="./imgs/python.png" width="128" alt="Python" />
               <img src="./imgs/aws.png" alt="AWS" width="128" />
               <img src="./imgs/bitbucket.png" alt="Bitbucket" width="128" />
-              <img src="./imgs/firebase.jpeg" alt="Firebase" width="128" />
+              <img src="./imgs/firebase.png" alt="Firebase" width="128" />
               <img src="./imgs/Git.png" width="128" alt="Git" />
               <img src="./imgs/github.png" width="128" alt="Github" />
               <img src="./imgs/gitkraken.png" width="128" alt="GitKraken" />
               <img src="./imgs/jwt.png" width="128" alt="JWT" />
-              <img src="./imgs/mongoose.png" width="128" alt="Mongoose" />
-              <img src="./imgs/mysql.png" width="128" alt="MySQL " />
               <img src="./imgs/postman.png" width="128" alt="Postman" />
+              <img src="./imgs/mysql.png" width="128" alt="MySQL " />
               <img src="./imgs/slack.png" width="128" alt="Slack" />
-              <img src="./imgs/teams.jpg" width="128" alt="Teams" />
               <img src="./imgs/python.png" width="128" alt="Python" />
+              <img src="./imgs/mongoose.png" width="128" alt="Mongoose" />
+              <img src="./imgs/teams.jpg" width="128" alt="Teams" />
             </div>
           </div>
         </section>
@@ -378,7 +378,7 @@ export default function Home() {
       <footer className="footerbox">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="imgs/favicon.png" alt="Logo" width="100"/>
+            {/* <img src="imgs/favicon.png" alt="Logo" width="100"/> */}
           </div>
           <div className="footer-text">
             <p>© 2024 Jayce Turambe Website. All rights reserved.</p>
