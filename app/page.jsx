@@ -244,7 +244,7 @@ export default function Home() {
               </p>
               <h3>Career Goal</h3>
               <p>
-                My career goal is to become a leading Full Stack Developer specializing in the MERN stack. 
+                My career goal is to become a leading Full Stack Developer. 
                 I aim to integrate advanced technical skills with strategic insights to drive innovation and efficiency. 
                 Ultimately, I aspire to lead and mentor teams, shaping the technological direction of organizations.
               </p>
