@@ -242,6 +242,13 @@ export default function Home() {
                 Recognizing this, I've dedicated myself to mastering computer programming, embracing the latest technologies, and staying ahead of the curve. As a skilled MERN stack developer, 
                 I'm ready to leverage my expertise to elevate your digital presence and turn your vision into reality. Let's build something extraordinary together!
               </p>
+              <h3>Career Goal</h3>
+              <p>
+                My career goal is to become a leading Full Stack Developer specializing in the MERN stack. 
+                I aim to integrate advanced technical skills with strategic insights to drive innovation and efficiency. 
+                Ultimately, I aspire to lead and mentor teams, shaping the technological direction of organizations.
+              </p>
+
             </div>
           </div>
         </section>
