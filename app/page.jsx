@@ -61,7 +61,7 @@ export default function Home() {
     <>
       <header>
         <div className="logo-text">
-          <span className={`logo-text ${menuOpen ? 'hidden' : ''}`}>Jayce Turambe</span>
+          <span className={`logo-text ${menuOpen ? 'hidden' : ''}`}>Jayce Turambe</span>      
         </div>
 
         <nav>

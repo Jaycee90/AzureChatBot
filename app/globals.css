@@ -45,13 +45,14 @@ a {
 header {
   width: calc(100vw - 60px);
   margin: 0 30px;
+  margin-top: -30px;
   border-radius: 20px;
   font-weight: bolder;
   overflow:hidden;
   position: fixed;
   background-color: var(--blue-sky);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,6 +71,19 @@ header {
   .logo-text.hidden {
     visibility: hidden;
     opacity: 0;
+  }
+
+  @keyframes dance {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .logo-text.dancing {
+    animation: dance 0.5s infinite alternate;
   }
 
   nav {
