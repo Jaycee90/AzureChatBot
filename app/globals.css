@@ -110,6 +110,8 @@ header {
       .mobile-toggle {
           display: none;
           color: var(--base-800);
+          background-color: var(--muted-pastel-blue);
+          border-radius: 50%;
           padding: 10px;
           @media (max-width: 768px) {
               display: inline-block;
@@ -117,6 +119,9 @@ header {
               top: 20px;
               right: 20px;
           }
+      }
+      .mobile-toggle:hover{
+        background-color: var(--blue-100);
       }
   }
 
