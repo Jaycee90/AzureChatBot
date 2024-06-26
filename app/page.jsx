@@ -202,6 +202,9 @@ export default function Home() {
               <h3>Software Development</h3>
               <ul>
                 <li>Agile (Scrum and Kanban)</li>
+                <li>DevOps practices</li>
+                <li>MVC</li>
+                <li>System Design/Microservices</li>
                 <li>RESTful APIs </li>
                 <li>Test-Driven Development</li>
               </ul>
