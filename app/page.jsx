@@ -184,6 +184,7 @@ export default function Home() {
                 <li>Python</li>
                 <li>Java</li>
                 <li>MongoDB</li>
+                <li>MySQL</li>
                 <li>JWT</li>
                 <li>Nodemailer</li>
                 <li>Flask</li>
