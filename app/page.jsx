@@ -206,6 +206,7 @@ export default function Home() {
                 <li>MVC</li>
                 <li>System Design/Microservices</li>
                 <li>RESTful APIs </li>
+                <li>SDLC</li>
                 <li>Test-Driven Development</li>
               </ul>
               <h3>Others</h3>
