@@ -1,10 +1,8 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
-import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Script from "next/script";
-import { RefObject } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
 
@@ -204,7 +202,7 @@ export default function Home() {
               <ul>
                 <li>Agile (Scrum and Kanban)</li>
                 <li>DevOps practices</li>
-                <li>MVC</li>
+                <li>MVC design pattern</li>
                 <li>System Design/Microservices</li>
                 <li>RESTful APIs </li>
                 <li>SDLC</li>
@@ -219,11 +217,11 @@ export default function Home() {
                 <li>webpack</li>
                 <li>CI/CD pipelines</li>
                 <li>AWS</li>
-                <li>Azure</li>
                 <li>Junit</li>
                 <li>Jenkins</li>
                 <li>Jira</li>
                 <li>Docker</li>
+                <li>Kubernetes</li>
               </ul>
             </div>
             <div className="right-column">
