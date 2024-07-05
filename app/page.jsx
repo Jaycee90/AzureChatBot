@@ -158,9 +158,6 @@ export default function Home() {
             <small>About Me</small>
             Skills
           </h2>
-          {/* <h2>
-              <small><a href="#home" className="home-link">Back to Home</a></small>
-          </h2> */}
 
           <div className="holder-blue">
             <div className="left-column">
