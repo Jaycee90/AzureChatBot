@@ -186,9 +186,9 @@ export default function Home() {
                 <li>JWT</li>
                 <li>Nodemailer</li>
                 <li>Flask</li>
+                <li>Stripe</li>
                 <li> Spring Boot</li>
                 <li>Django</li>
-                <li>Stripe</li>
               </ul>
               <h3>Soft skills</h3>
               <ul>
@@ -200,13 +200,13 @@ export default function Home() {
               </ul>
               <h3>Software Development</h3>
               <ul>
-                <li>Agile (Scrum and Kanban)</li>
-                <li>DevOps practices</li>
                 <li>MVC design pattern</li>
                 <li>System Design/Microservices</li>
                 <li>RESTful APIs </li>
                 <li>SDLC</li>
                 <li>Test-Driven Development</li>
+                <li>Agile (Scrum and Kanban)</li>
+                <li>DevOps practices</li>
               </ul>
               <h3>Others</h3>
               <ul>
