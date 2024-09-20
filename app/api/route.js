@@ -21,7 +21,7 @@ export async function POST (req) {
     })
 
 
-    const response = await client.getChatCompletions(model, messages, {maxTokens: 128,})
+    const response = await client.getChatCompletions(model, messages, {maxTokens: 528,})
 
     return NextResponse.json({
         message: response.choices[0].message.content
