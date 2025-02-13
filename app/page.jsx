@@ -291,31 +291,51 @@ export default function Home() {
                 Improved software reliability by creating 50+ unit tests in TCL, reducing post-release defects by 20%.
                 Optimized data processes, enhancing application performance by 15%.
               </p>
-            </article> 
+            </article>
+            <article>
+              <figure>
+                <div>
+                  <img src="./imgs/geico.jpg" alt="GEICO - Cybersecurity Software Engineer" width="100%" />
+                  <figcaption>
+                    GEICO - Cybersecurity Software Engineer
+                  </figcaption>
+                </div>
+					    </figure>
+					    <h3>Cybersecurity Software Engineer</h3>
+					    <div>2024-Present</div>
+				      <p>
+                Implement detective, preventative, and governing solutions to secure infrastructure, platforms, 
+                and services to meet compliance requirements and safeguard sensitive data.
+              </p>
+				    </article> 
           </div>
         </section>
-        
-        <section id="projects" className="work-completed container">
+
+        <section id="projects" class="bento container">
           <h2>
             <small>Previous</small>
             Completed Projects
           </h2>
-              
-          <div className="projs">
+            
+          <h2>
+            <small><a href="#home" class="home-link">Back to Home</a></small>
+          </h2>
+        
+          <div className="bento-grid">
             <article>
               <figure>
                 <div>
                   <a href="https://vibetrack.vercel.app" target="_blank" rel="noopener noreferrer">
                     <img src="./imgs/vibetrack.png" alt="VibeTrack" width="100%" />
+                    <figcaption>
+                      VibeTrack
+                    </figcaption>
                   </a>
-                  <figcaption>VibeTrack</figcaption>
                 </div>
               </figure>
+                
               <h3>VibeTrack</h3>
-              <p>
-                A nightclub tracker web app that aims to provide an enhanced experience for customers, 
-                helping them discover nearby clubs that cater to their preferences and interests.
-              </p>
+              <p> A nightclub tracker web app that aims to provide an enhanced experience for customers, helping them discover nearby clubs that cater to their preferences and interests.</p>
             </article>
 
             <article>
@@ -323,15 +343,15 @@ export default function Home() {
                 <div>
                   <a href="https://9commerce.netlify.app" target="_blank" rel="noopener noreferrer">
                     <img src="./imgs/ecom.png" alt="MERNCommerce" width="100%" />
+                    <figcaption>
+                    MERNCommerce
+                    </figcaption>
                   </a>
-                  <figcaption>MERNCommerce</figcaption>
                 </div>
               </figure>
+                
               <h3>MERNCommerce</h3>
-              <p>
-                An e-commerce platform enabling users to create accounts, browse items, checkout securely, 
-                and featuring an admin dashboard for inventory and order management.
-              </p>
+              <p> An e-commerce platform enabling users to create accounts, browse items, checkout securely, and featuring an admin dashboard for inventory and order management.</p>
             </article>
 
             <article>
@@ -339,15 +359,36 @@ export default function Home() {
                 <div>
                   <a href="https://readhub-murex.vercel.app" target="_blank" rel="noopener noreferrer">
                     <img src="./imgs/readhub.png" alt="ReadHub" width="100%" />
+                    <figcaption>
+                    ReadHub
+                    </figcaption>
                   </a>
-                  <figcaption>ReadHub</figcaption>
                 </div>
               </figure>
+                
               <h3>ReadHub</h3>
-              <p >A hub for avid readers to discover, share, and review books across various genres.</p>
+              <p> A hub for avid readers to discover, share, and review books across various genres.</p>
+            </article>
+
+            <article>
+              <figure>
+                <div>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <img src="./imgs/adopt.png" alt="Weadopt" width="100%" />
+                    <figcaption>
+                    WeAdopt
+                    </figcaption>
+                  </a>
+                </div>
+              </figure>
+                
+              <h3>WeAdopt</h3>
+              <p> Created an adoption portal for viewing adoptable kids and making donations, hosted on AWS.</p>
             </article>
           </div>
-        </section>
+        </section> 
+
+
         
         <section id="chatbot" className="chatbot container">
           <h2>
