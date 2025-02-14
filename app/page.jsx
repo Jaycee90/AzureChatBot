@@ -55,6 +55,7 @@ export default function Home() {
     }
   }, [messages]);
 
+
   return (
     <>
       <header>
@@ -392,39 +393,20 @@ export default function Home() {
         
         <section id="chatbot" className="chatbot container">
           <h2>
-            <small>
-              Talk to me
-            </small>
+            <small>Talk to me </small>
             Chatbot
           </h2>
           <div className="chatbot-blue">
             <div className="chat-info">
-              <h3>Azure AI Chatbot</h3>
+              <h3> AI Chatbot</h3>
               <p>I've created a chatbot with all my skills, work history, and my resume. Feel free to ask it anything about me. It's a quick way to learn more about me!</p>
-              <p>Feel free to download my resume here for a closer look. I'm actively seeking new opportunities, so if you have a project you think I'd be a good fit for, don't hesitate to reach out!</p>
+              <p><strong>📢 Click on the <span style={{ color: "red" }}>red chat icon </span> in the bottom-right corner of your screen to start chatting with my AI assistant!</strong></p>
+          
               <a href="https://docs.google.com/document/d/1jaEEgkgw8WgxC4NGTq9OVagGUH07mK4r/edit?usp=sharing&ouid=105428653284122264500&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="button black">Download Resume</a>
-            </div>
-            <div className="chat-box">
-              <div className="scroll-area" ref={chatLogRef}>
-                <ul id="chat-log">
-                  {messages.map((message, index) => (
-                    <li key={index} className={`${message.role}`}>
-                      <span className={`avatar`}>{message.role === 'user' ? 'You' : 'AI'}</span>
-                      <div className="message">{message.content}</div>
-                    </li>
-                  ))}
-
-                </ul>
-              </div>
-              <form onSubmit={submitForm} className="chat-message">
-                <input type="text" placeholder="Ask me about Jayce!" value={messageInput} onChange={e =>
-                  setMessageInput(e.target.value)
-                }/>
-                <button className="button black">Send</button>
-              </form> 
             </div>
           </div>
         </section>
+
       </main>
       
       <footer className="footerbox">
@@ -434,19 +416,7 @@ export default function Home() {
           </div>
           <div className="footer-text">
             <p>© 2024 Jayce Turambe Website. All rights reserved.</p>
-            <p>Remember to connect with me!</p>
           </div>
-        </div>
-
-        <div className="footer-linkedin">
-          <a href="https://www.linkedin.com/in/Jayce90" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-        </div>
-        <div className="footer-github">
-          <a href="https://github.com/Jaycee90" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
         </div>
       </footer>
 
