@@ -260,24 +260,7 @@ export default function Home() {
             Work Experience
           </h2>
           <div className="jobs">
-            <article>
-              <figure>
-                <div>
-                  <img src="./imgs/irembo.png" alt="irembo - Full Stack Developer" width="100%" />
-                  <figcaption>
-                    Irembo Services - Full Stack Developer
-                  </figcaption>
-                </div>
-              </figure>
-              <h3>Full Stack Developer</h3>
-              <div>2021-Present</div>
-              <p>
-                Boosting system efficiency by 25% through developing RESTful APIs with the Spring framework. 
-                Deploying scalable microservices, cutting deployment time by 30% and increasing uptime to 99.9%.
-              </p>
-            </article>
-
-            <article>
+          <article>
               <figure>
                 <div>
                   <img src="./imgs/infineon.jpg" alt="infineon- Software Developer" width="100%" />
@@ -289,10 +272,28 @@ export default function Home() {
               <h3>Software Engineer trainee</h3>
               <div>2019-2022</div>
               <p>
-                Improved software reliability by creating 50+ unit tests in TCL, reducing post-release defects by 20%.
-                Optimized data processes, enhancing application performance by 15%.
+                Improved software reliability, reducing post-release defects.
+                Optimized data processes, enhancing application performance.
               </p>
             </article>
+            
+            <article>
+              <figure>
+                <div>
+                  <img src="./imgs/irembo.png" alt="irembo - Full Stack Developer" width="100%" />
+                  <figcaption>
+                    Irembo Services - Full Stack Developer
+                  </figcaption>
+                </div>
+              </figure>
+              <h3>Full Stack Developer</h3>
+              <div>2021-2023</div>
+              <p>
+                Boosting system efficiency through developing RESTful APIs with the Spring framework. 
+                Deploying scalable microservices, cutting deployment time by 30% and increasing uptime.
+              </p>
+            </article>
+
             <article>
               <figure>
                 <div>
