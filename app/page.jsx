@@ -256,7 +256,6 @@ export default function Home() {
 
         <section className="work-experience container">
           <h2>
-            <small>Recent</small>
             Work Experience
           </h2>
           <div className="jobs">
@@ -315,7 +314,6 @@ export default function Home() {
 
         <section id="projects" class="bento container">
           <h2>
-            <small>Previous</small>
             Completed Projects
           </h2>
             
@@ -394,7 +392,7 @@ export default function Home() {
         
         <section id="chatbot" className="chatbot container">
           <h2>
-            <small>Talk to me </small>
+            <small>Ask anything about me </small>
             Chatbot
           </h2>
           <div className="chatbot-blue">
